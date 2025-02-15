@@ -3,13 +3,13 @@ import React from "react";
 const Header = () => {
   return (
     <div className="container text-center my-5">
-      {/* Heading */}
+      
       <h2 className="fw-bold" style={{fontFamily: "'Open Sans', sans-serif",}}>
         Best <span className="text-success fst-italic">Autism</span> Treatment Center in
       
        Kochi | Kerala | India</h2>
 
-      {/* Description */}
+     
       <p className="text-muted mt-3 px-3" style={{ maxWidth: "750px", margin: "0 auto",
         fontFamily: "'Open Sans', sans-serif",
        }}>
@@ -20,7 +20,7 @@ const Header = () => {
         and sleepless nights.
       </p>
 
-      {/* Buttons */}
+      
       <div className="d-flex justify-content-center mt-4 gap-3">
         <button className="btn btn-outline-dark px-4 py-2">Know More</button>
         <button className="btn btn-success px-4 py-2 text-white">Download Brochure</button>
