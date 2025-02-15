@@ -5,8 +5,8 @@ import Navbar from "./Navbar";
 
 const Home = () => {
     return (
-        <div className="container-fluid py-5 position-relative" style={{ paddingTop: "80px" }}> {/* Prevent Navbar Overlap */}
-            {/* Logo Image - Overlaying Navbar */}
+        <div className="container-fluid py-5 position-relative" style={{ paddingTop: "80px" }}> 
+            
             <img
                 src={image2}
                 className="position-absolute"
@@ -15,13 +15,13 @@ const Home = () => {
                     height: "61px",
                     top: "10px",
                     left: "20px",
-                    zIndex: "1100", // Ensures logo is above the navbar
+                    zIndex: "1100", 
                 }}
                 alt="Logo"
             />
 
             <div className="row align-items-center">
-                {/* Left Section - Text Box */}
+              
                 <div className="col-md-5 d-flex flex-column align-items-center text-center">
                     <h1
                         style={{
@@ -48,7 +48,7 @@ const Home = () => {
                         Compassionate care and tailored therapies for individuals with autism and their families.
                     </p>
 
-                    {/* Buttons */}
+                  
                     <div className="d-flex gap-3 mt-3">
                         <button className="btn btn-outline-dark px-4 py-2"
                             style={{
@@ -73,7 +73,7 @@ const Home = () => {
                         </button>
                     </div>
 
-                    {/* Care Links */}
+                   
                     <div className="mt-5 d-flex flex-column gap-2">
                         <div className="d-flex gap-2 justify-content-center">
                             {["Child care", "Neuro care", "Family care"].map((care, index) => (
@@ -108,7 +108,7 @@ const Home = () => {
                     </div>
                 </div>
 
-                {/* Right Section - Image */}
+                
                 <div className="col-md-7 d-flex justify-content-center">
                     <Navbar/>
                     <img
