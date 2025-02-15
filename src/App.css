@@ -1,6 +1,25 @@
 .App {
   text-align: center;
 }
+.nav-link {
+  width: 124px;
+  height: 35px;
+  border-radius: 50px;
+  border: 1px solid #ccc; /* Adjust color if needed */
+  padding: 8px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  text-decoration: none; /* Remove underline */
+  color: white; /* Ensure text is visible */
+  transition: background 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+  background: rgba(255, 255, 255, 0.2); /* Light hover effect */
+}
+
 
 .App-logo {
   height: 40vmin;
