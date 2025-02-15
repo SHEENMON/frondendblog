@@ -8,7 +8,7 @@ const services = [
     title: "Speech And Language Pathology",
     description:
       "Speech and language pathology is a field of expertise practiced by speech-language pathologists. It helps with speech and communication disorders.",
-    image: task3, // Use imported image
+    image: task3,
   },
   {
     title: "Psychology And Behavioural Management",
@@ -30,7 +30,7 @@ const Service = () => {
       <div className="row g-4"> 
         {services.map((service, index) => (
           <div key={index} className="col-md-4"> 
-            <div className="card shadow-lg h-100" style={{borderRadius:"10px"}}> {/* Card with equal height */}
+            <div className="card shadow-lg h-100" style={{borderRadius:"10px"}}> 
               <img src={service.image} className="card-img-top" alt={service.title} />
               <div className="card-body text-center">
                 <h5 className="fw-bold">{service.title}</h5>
